@@ -1,0 +1,204 @@
+ticker,acquired,deal_year,deal_value_bn,acquirer,deal_status
+CA,1,2018.0,18.9,Broadcom,completed
+RHT,1,2019.0,34.0,IBM,completed
+ATVI,1,2023.0,69.0,Microsoft,completed
+XLNX,1,2022.0,49.0,AMD,completed
+ADI,1,2021.0,21.0,Maxim (acquirer),completed
+SYMC,1,2019.0,10.7,Broadcom (Symc Ent),completed
+TWX,1,2018.0,85.0,AT&T,completed
+DISH,1,2024.0,,EchoStar/DISH merger,completed
+DISCA,1,2022.0,43.0,Warner merger,completed
+DPS,1,2018.0,18.7,Keurig Dr Pepper,completed
+TIF,1,2021.0,15.8,LVMH,completed
+KORS,1,2018.0,,Versace/Capri merger,completed
+ANDV,1,2018.0,23.0,Marathon Petroleum,completed
+WYN,1,2018.0,,Wyndham split,completed
+MGM,1,2022.0,8.5,Amazon/MGM,completed
+MON,1,2018.0,63.0,Bayer,completed
+RAI,1,2017.0,49.0,BAT,completed
+FL,1,2023.0,,Dick's rumoured,rumoured
+BBY,1,2023.0,,,rumoured
+JWN,1,2023.0,,Family takeover attempt,completed
+GPS,1,2023.0,,,rumoured
+MAT,1,2017.0,,MGA bid 2017,completed
+HBI,1,2024.0,,,rumoured
+HOG,1,2023.0,,,rumoured
+SIG,1,2023.0,,,rumoured
+CELG,1,2019.0,74.0,Bristol-Myers Squibb,completed
+AGN,1,2020.0,63.0,AbbVie,completed
+ALXN,1,2021.0,39.0,AstraZeneca,completed
+MYL,1,2020.0,50.0,Viatris merger,completed
+AET,1,2018.0,69.0,CVS Health,completed
+ESRX,1,2018.0,67.0,Cigna,completed
+VAR,1,2021.0,16.4,Siemens Healthineers,completed
+HOLX,1,2023.0,,,rumoured
+PRGO,1,2022.0,,,rumoured
+DVA,1,2023.0,,,rumoured
+BBT,1,2019.0,28.0,BB&T/SunTrust → Truist,completed
+STI,1,2019.0,28.0,BB&T merger → Truist,completed
+ETFC,1,2020.0,13.0,Morgan Stanley,completed
+PBCT,1,2022.0,7.6,M&T Bank,completed
+NAVI,1,2023.0,,,rumoured
+TMK,1,2019.0,,Rebrand → Globe Life,completed
+UNM,1,2023.0,,,rumoured
+CMA,1,2023.0,,,rumoured
+ZION,1,2023.0,,,rumoured
+APC,1,2019.0,55.0,Occidental Petroleum,completed
+NBL,1,2020.0,13.0,Chevron,completed
+XEC,1,2021.0,17.0,Coterra merger,completed
+COG,1,2021.0,17.0,Coterra merger,completed
+PXD,1,2023.0,60.0,ExxonMobil,completed
+HES,1,2023.0,53.0,Chevron,completed
+CXO,1,2021.0,9.7,ConocoPhillips,completed
+APA,1,2024.0,,,rumoured
+DVN,1,2021.0,5.7,WPX merger,completed
+MRO,1,2024.0,22.5,ConocoPhillips,completed
+OXY,1,2024.0,,CrownRock acquirer,completed
+EOG,1,2024.0,,,rumoured
+NOV,1,2023.0,,,rumoured
+HP,1,2024.0,,,rumoured
+RTN,1,2020.0,120.0,Raytheon-UTX merger,completed
+UTX,1,2020.0,120.0,Raytheon-UTX merger,completed
+LLL,1,2019.0,33.5,L3Harris merger,completed
+TXT,1,2023.0,,,rumoured
+FLS,1,2023.0,,,rumoured
+MAS,1,2024.0,,,rumoured
+JEC,1,2017.0,,Split off CH2M 2017,completed
+KSU,1,2021.0,31.0,Canadian Pacific,completed
+DWDP,1,2019.0,,DuPont split (3 cos),completed
+SCG,1,2018.0,14.6,Dominion Energy,completed
+BF.B,1,2024.0,,,rumoured
+GT,1,2023.0,,,rumoured
+WMB,1,2023.0,,,rumoured
+CPB,1,2018.0,,,rumoured
+KHC,1,2019.0,,,rumoured
+HSY,1,2016.0,,Mondelez bid rejected,completed
+TAP,1,2022.0,,,rumoured
+STZ,1,2023.0,,,rumoured
+MO,1,2023.0,,,rumoured
+PM,1,2019.0,,,rumoured
+K,1,2023.0,,,rumoured
+GIS,1,2018.0,,Blue Buffalo acquirer,completed
+CL,1,2023.0,,,rumoured
+CLX,1,2022.0,,,rumoured
+EL,1,2023.0,,"Weak, acquisition target",completed
+NWL,1,2023.0,,Multiple sales 2023-24,completed
+SEE,1,2023.0,,,rumoured
+PKG,1,2023.0,,,rumoured
+IP,1,2024.0,,DS Smith acquirer,completed
+WY,1,2024.0,,,rumoured
+LYB,1,2023.0,,,rumoured
+PPG,1,2017.0,,Akzo bid,completed
+EMN,1,2023.0,,,rumoured
+FCX,1,2023.0,,,rumoured
+TRIP,1,2023.0,,Liberty TripAdvisor bid,completed
+LUV,1,2024.0,,,rumoured
+VRTX,1,2023.0,,,rumoured
+INCY,1,2023.0,,,rumoured
+ZTS,1,2023.0,,,rumoured
+IDXX,1,2024.0,,,rumoured
+NOC,1,2023.0,,,rumoured
+GD,1,2023.0,,,rumoured
+RHI,1,2023.0,,,rumoured
+URI,1,2023.0,,,rumoured
+PNC,1,2021.0,11.6,BBVA USA acquirer,completed
+RJF,1,2023.0,,,rumoured
+RF,1,2023.0,,,rumoured
+KEY,1,2024.0,,Scotiabank stake,completed
+AAPL,0,,,,none
+MSFT,0,,,,none
+GOOGL,0,,,,none
+GOOG,0,,,,none
+AMZN,0,,,,none
+META,0,,,,none
+BRK.B,0,,,,none
+JPM,0,,,,none
+V,0,,,,none
+MA,0,,,,none
+JNJ,0,,,,none
+UNH,0,,,,none
+HD,0,,,,none
+PG,0,,,,none
+BAC,0,,,,none
+XOM,0,,,,none
+WMT,0,,,,none
+LLY,0,,,,none
+KO,0,,,,none
+PEP,0,,,,none
+ABBV,0,,,,none
+CVX,0,,,,none
+MRK,0,,,,none
+AVGO,0,,,,none
+TMO,0,,,,none
+ORCL,0,,,,none
+MCD,0,,,,none
+ACN,0,,,,none
+ABT,0,,,,none
+CRM,0,,,,none
+NKE,0,,,,none
+DHR,0,,,,none
+TXN,0,,,,none
+NEE,0,,,,none
+WFC,0,,,,none
+MDT,0,,,,none
+LIN,0,,,,none
+UNP,0,,,,none
+UPS,0,,,,none
+PYPL,0,,,,none
+RTX,0,,,,none
+T,0,,,,none
+IBM,0,,,,none
+HON,0,,,,none
+CVS,0,,,,none
+LOW,0,,,,none
+BMY,0,,,,none
+MS,0,,,,none
+GS,0,,,,none
+BA,0,,,,none
+CAT,0,,,,none
+AXP,0,,,,none
+BLK,0,,,,none
+DE,0,,,,none
+ADP,0,,,,none
+INTC,0,,,,none
+SBUX,0,,,,none
+SPGI,0,,,,none
+TGT,0,,,,none
+MMM,0,,,,none
+AMT,0,,,,none
+C,0,,,,none
+CB,0,,,,none
+CSCO,0,,,,none
+AMAT,0,,,,none
+ADBE,0,,,,none
+NFLX,0,,,,none
+NVDA,0,,,,none
+COST,0,,,,none
+TMUS,0,,,,none
+MCO,0,,,,none
+ICE,0,,,,none
+ISRG,0,,,,none
+CI,0,,,,none
+DUK,0,,,,none
+SO,0,,,,none
+ETN,0,,,,none
+PLD,0,,,,none
+PSA,0,,,,none
+CME,0,,,,none
+AON,0,,,,none
+SHW,0,,,,none
+REGN,0,,,,none
+PGR,0,,,,none
+NSC,0,,,,none
+MMC,0,,,,none
+BDX,0,,,,none
+CCI,0,,,,none
+HUM,0,,,,none
+GILD,0,,,,none
+SYK,0,,,,none
+MDLZ,0,,,,none
+EQIX,0,,,,none
+ITW,0,,,,none
+ZBH,0,,,,none
+FIS,0,,,,none
+GPN,0,,,,none

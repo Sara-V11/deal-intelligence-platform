@@ -1,0 +1,506 @@
+ticker,name,sector,market_cap_bn,market_cap_tier
+MMM,3M Company,Industrials,138.721055226,Large-cap
+AOS,A.O. Smith Corp,Industrials,10.783419933,Large-cap
+ABT,Abbott Laboratories,Health Care,102.121042306,Large-cap
+ABBV,AbbVie Inc.,Health Care,181.386347059,Large-cap
+ACN,Accenture plc,Information Technology,98.765855553,Large-cap
+ATVI,Activision Blizzard,Information Technology,52.518668144,Large-cap
+AYI,Acuity Brands Inc,Industrials,6.242377704,Mid-cap
+ADBE,Adobe Systems Inc,Information Technology,94.550214268,Large-cap
+AAP,Advance Auto Parts,Consumer Discretionary,8.123611867,Mid-cap
+AMD,Advanced Micro Devices Inc,Information Technology,11.191663795,Large-cap
+AES,AES Corp,Utilities,6.920851212,Mid-cap
+AET,Aetna Inc,Health Care,59.197016353,Large-cap
+AMG,Affiliated Managers Group Inc,Financials,10.442174371,Large-cap
+AFL,AFLAC Inc,Financials,33.422948,Large-cap
+A,Agilent Technologies Inc,Health Care,21.984606918,Large-cap
+APD,Air Products & Chemicals Inc,Materials,34.638387128,Large-cap
+AKAM,Akamai Technologies Inc,Information Technology,10.906904066,Large-cap
+ALK,Alaska Air Group Inc,Industrials,7.903173734,Mid-cap
+ALB,Albemarle Corp,Materials,11.782151266,Large-cap
+ARE,Alexandria Real Estate Equities Inc,Real Estate,12.043374429,Large-cap
+ALXN,Alexion Pharmaceuticals,Health Care,26.172439795,Large-cap
+ALGN,Align Technology,Health Care,18.788041378,Large-cap
+ALLE,Allegion,Industrials,7.599609494,Mid-cap
+AGN,"Allergan, Plc",Health Care,56.668833898,Large-cap
+ADS,Alliance Data Systems,Information Technology,13.632608582,Large-cap
+LNT,Alliant Energy Corp,Utilities,8.6701635,Mid-cap
+ALL,Allstate Corp,Financials,34.759468905,Large-cap
+GOOGL,Alphabet Inc Class A,Information Technology,733.823966137,Mega-cap
+GOOG,Alphabet Inc Class C,Information Technology,728.53555814,Mega-cap
+MO,Altria Group Inc,Consumer Staples,126.985101434,Large-cap
+AMZN,Amazon.com Inc,Consumer Discretionary,685.873374731,Mega-cap
+AEE,Ameren Corp,Utilities,12.905744906,Large-cap
+AAL,American Airlines Group,Industrials,24.594852352,Large-cap
+AEP,American Electric Power,Utilities,31.701916517,Large-cap
+AXP,American Express Co,Financials,80.41099,Large-cap
+AIG,"American International Group, Inc.",Financials,54.360073164,Large-cap
+AMT,American Tower Corp A,Real Estate,59.21389264,Large-cap
+AWK,American Water Works Company Inc,Utilities,13.906146184,Large-cap
+AMP,Ameriprise Financial,Financials,23.472126,Large-cap
+ABC,AmerisourceBergen Corp,Health Care,20.587704101,Large-cap
+AME,AMETEK Inc,Industrials,17.139651923,Large-cap
+AMGN,Amgen Inc,Health Care,128.13334,Large-cap
+APH,Amphenol Corp,Information Technology,26.955335395,Large-cap
+APC,Anadarko Petroleum Corp,Energy,32.129091747,Large-cap
+ADI,"Analog Devices, Inc.",Information Technology,31.811578855,Large-cap
+ANDV,Andeavor,Energy,15.696449735,Large-cap
+ANSS,ANSYS,Information Technology,13.155919129,Large-cap
+ANTM,Anthem Inc.,Health Care,61.221978627,Large-cap
+AON,Aon plc,Financials,35.123123422,Large-cap
+APA,Apache Corporation,Energy,15.066280977,Large-cap
+AIV,Apartment Investment & Management,Real Estate,6.156884142,Mid-cap
+AAPL,Apple Inc.,Information Technology,809.50803402,Mega-cap
+AMAT,Applied Materials Inc,Information Technology,51.296481503,Large-cap
+APTV,Aptiv Plc,Consumer Discretionary,24.9065303,Large-cap
+ADM,Archer-Daniels-Midland Co,Consumer Staples,23.594770663,Large-cap
+ARNC,Arconic Inc,Industrials,12.1233,Large-cap
+AJG,Arthur J. Gallagher & Co.,Financials,11.96848829,Large-cap
+AIZ,Assurant Inc,Financials,4.653993594,Mid-cap
+T,AT&T Inc,Telecommunication Services,226.71327,Mega-cap
+ADSK,Autodesk Inc,Information Technology,24.348294504,Large-cap
+ADP,Automatic Data Processing,Information Technology,50.337702249,Large-cap
+AZO,AutoZone Inc,Consumer Discretionary,19.922021415,Large-cap
+AVB,"AvalonBay Communities, Inc.",Real Estate,21.85654743,Large-cap
+AVY,Avery Dennison Corp,Materials,10.104814319,Large-cap
+BHGE,"Baker Hughes, a GE Company",Energy,32.995712852,Large-cap
+BLL,Ball Corp,Materials,13.767688518,Large-cap
+BAC,Bank of America Corp,Financials,321.478200969,Mega-cap
+BAX,Baxter International Inc.,Health Care,35.713732553,Large-cap
+BBT,BB&T Corporation,Financials,42.08756292,Large-cap
+BDX,Becton Dickinson,Health Care,50.910180308,Large-cap
+BRK.B,Berkshire Hathaway,Financials,261.401203633,Mega-cap
+BBY,Best Buy Co. Inc.,Consumer Discretionary,20.831186176,Large-cap
+BIIB,Biogen Inc.,Health Care,69.157726427,Large-cap
+BLK,BlackRock,Financials,85.907759858,Large-cap
+HRB,Block H&R,Financials,5.381433872,Mid-cap
+BA,Boeing Company,Industrials,205.617405233,Mega-cap
+BWA,BorgWarner,Consumer Discretionary,11.596117445,Large-cap
+BXP,Boston Properties,Real Estate,17.799878487,Large-cap
+BSX,Boston Scientific,Health Care,36.142506007,Large-cap
+BHF,Brighthouse Financial Inc,Financials,7.066613254,Mid-cap
+BMY,Bristol-Myers Squibb,Health Care,102.50650196,Large-cap
+AVGO,Broadcom,Information Technology,92.791974933,Large-cap
+BF.B,Brown-Forman Corp.,Consumer Staples,5.498033502,Mid-cap
+CHRW,C. H. Robinson Worldwide,Industrials,12.932483889,Large-cap
+CA,"CA, Inc.",Information Technology,14.175422936,Large-cap
+COG,Cabot Oil & Gas,Energy,10.808821635,Large-cap
+CDNS,Cadence Design Systems,Information Technology,10.8906252,Large-cap
+CPB,Campbell Soup,Consumer Staples,13.467193376,Large-cap
+COF,Capital One Financial,Financials,47.63726,Large-cap
+CAH,Cardinal Health Inc.,Health Care,20.493281175,Large-cap
+KMX,Carmax Inc,Consumer Discretionary,11.827453706,Large-cap
+CCL,Carnival Corp.,Consumer Discretionary,49.18004405,Large-cap
+CAT,Caterpillar Inc.,Industrials,91.822049046,Large-cap
+CBOE,CBOE Holdings,Financials,12.998295607,Large-cap
+CBG,CBRE Group,Real Estate,14.440591731,Large-cap
+CBS,CBS Corp.,Consumer Discretionary,20.431395736,Large-cap
+CELG,Celgene Corp.,Health Care,74.921079154,Large-cap
+CNC,Centene Corporation,Health Care,18.012494506,Large-cap
+CNP,CenterPoint Energy,Utilities,11.362043297,Large-cap
+CTL,CenturyLink Inc,Telecommunication Services,18.237196861,Large-cap
+CERN,Cerner,Health Care,21.101697598,Large-cap
+CF,CF Industries Holdings Inc,Materials,9.209106695,Mid-cap
+SCHW,Charles Schwab Corporation,Financials,69.750188843,Large-cap
+CHTR,Charter Communications,Consumer Discretionary,86.708878113,Large-cap
+CHK,Chesapeake Energy,Energy,2.626102121,Mid-cap
+CVX,Chevron Corp.,Energy,218.978820159,Mega-cap
+CMG,Chipotle Mexican Grill,Consumer Discretionary,7.68528397,Mid-cap
+CB,Chubb Limited,Financials,68.424670566,Large-cap
+CHD,Church & Dwight,Consumer Staples,11.838963451,Large-cap
+CI,CIGNA Corp.,Health Care,47.68091048,Large-cap
+XEC,Cimarex Energy,Energy,10.089082025,Large-cap
+CINF,Cincinnati Financial,Financials,11.916533018,Large-cap
+CTAS,Cintas Corporation,Industrials,16.676145923,Large-cap
+CSCO,Cisco Systems,Information Technology,199.425716482,Large-cap
+C,Citigroup Inc.,Financials,192.709302,Large-cap
+CFG,Citizens Financial Group,Financials,22.008050974,Large-cap
+CTXS,Citrix Systems,Information Technology,13.199167493,Large-cap
+CME,CME Group Inc.,Financials,54.423298745,Large-cap
+CMS,CMS Energy,Utilities,11.873960824,Large-cap
+KO,Coca-Cola Company (The),Consumer Staples,189.855335601,Large-cap
+CTSH,Cognizant Technology Solutions,Information Technology,45.119684067,Large-cap
+CL,Colgate-Palmolive,Consumer Staples,61.616643498,Large-cap
+CMCSA,Comcast Corp.,Consumer Discretionary,186.476996883,Large-cap
+CMA,Comerica Inc.,Financials,16.274969256,Large-cap
+CAG,Conagra Brands,Consumer Staples,14.379717835,Large-cap
+CXO,Concho Resources,Energy,22.021882339,Large-cap
+COP,ConocoPhillips,Energy,65.48246241,Large-cap
+ED,Consolidated Edison,Utilities,23.335777662,Large-cap
+STZ,Constellation Brands,Consumer Staples,41.697453163,Large-cap
+GLW,Corning Inc.,Information Technology,25.759280346,Large-cap
+COST,Costco Wholesale Corp.,Consumer Staples,80.439804508,Large-cap
+COTY,"Coty, Inc",Consumer Staples,13.101112504,Large-cap
+CCI,Crown Castle International Corp.,Real Estate,44.183023189,Large-cap
+CSRA,CSRA Inc.,Information Technology,5.134501276,Mid-cap
+CSX,CSX Corp.,Industrials,47.340511707,Large-cap
+CMI,Cummins Inc.,Industrials,28.669230787,Large-cap
+CVS,CVS Health,Consumer Staples,75.323141722,Large-cap
+DHI,D. R. Horton,Consumer Discretionary,17.390873686,Large-cap
+DHR,Danaher Corp.,Health Care,66.35115,Large-cap
+DRI,Darden Restaurants,Consumer Discretionary,11.74559532,Large-cap
+DVA,DaVita Inc.,Health Care,13.685178,Large-cap
+DE,Deere & Co.,Industrials,52.186628646,Large-cap
+DAL,Delta Air Lines Inc.,Industrials,38.393603535,Large-cap
+XRAY,Dentsply Sirona,Health Care,13.390513478,Large-cap
+DVN,Devon Energy Corp.,Energy,19.31738,Large-cap
+DLR,Digital Realty Trust Inc,Real Estate,21.400952517,Large-cap
+DFS,Discover Financial Services,Financials,27.43354,Large-cap
+DISCA,Discovery Communications-A,Consumer Discretionary,8.763756733,Mid-cap
+DISCK,Discovery Communications-C,Consumer Discretionary,8.320262123,Mid-cap
+DISH,Dish Network,Consumer Discretionary,21.032719056,Large-cap
+DG,Dollar General,Consumer Discretionary,26.580644874,Large-cap
+DLTR,Dollar Tree,Consumer Discretionary,25.151198417,Large-cap
+D,Dominion Energy,Utilities,47.54357186,Large-cap
+DOV,Dover Corp.,Industrials,15.566645713,Large-cap
+DWDP,DowDuPont,Materials,165.203312427,Large-cap
+DPS,Dr Pepper Snapple Group,Consumer Staples,21.209783858,Large-cap
+DTE,DTE Energy Co.,Utilities,17.808073691,Large-cap
+DUK,Duke Energy,Utilities,52.078185682,Large-cap
+DRE,Duke Realty Corp,Real Estate,9.035293365,Mid-cap
+DXC,DXC Technology,Information Technology,27.40862102,Large-cap
+ETFC,E*Trade,Financials,13.754977266,Large-cap
+EMN,Eastman Chemical,Materials,14.226830813,Large-cap
+ETN,Eaton Corporation,Industrials,35.961772,Large-cap
+EBAY,eBay Inc.,Information Technology,44.216696399,Large-cap
+ECL,Ecolab Inc.,Materials,38.460272282,Large-cap
+EIX,Edison Int'l,Utilities,19.447670886,Large-cap
+EW,Edwards Lifesciences,Health Care,27.447099863,Large-cap
+EA,Electronic Arts,Information Technology,37.890226992,Large-cap
+EMR,Emerson Electric Company,Industrials,44.040298425,Large-cap
+ETR,Entergy Corp.,Utilities,13.116894887,Large-cap
+EVHC,Envision Healthcare,Health Care,4.212729247,Mid-cap
+EOG,EOG Resources,Energy,61.164030149,Large-cap
+EQT,EQT Corporation,Energy,12.63882895,Large-cap
+EFX,Equifax Inc.,Industrials,14.121334618,Large-cap
+EQIX,Equinix,Real Estate,33.333813618,Large-cap
+EQR,Equity Residential,Real Estate,20.925508143,Large-cap
+ESS,"Essex Property Trust, Inc.",Real Estate,14.383525286,Large-cap
+EL,Estee Lauder Cos.,Consumer Staples,49.543264457,Large-cap
+RE,Everest Re Group Ltd.,Financials,10.131892523,Large-cap
+ES,Eversource Energy,Utilities,18.027633617,Large-cap
+EXC,Exelon Corp.,Utilities,34.734816899,Large-cap
+EXPE,Expedia Inc.,Consumer Discretionary,19.722178609,Large-cap
+EXPD,Expeditors International,Industrials,11.040678071,Large-cap
+ESRX,Express Scripts,Health Care,42.44965635,Large-cap
+EXR,Extra Space Storage,Real Estate,10.133547517,Large-cap
+XOM,Exxon Mobil Corp.,Energy,326.14866,Mega-cap
+FFIV,F5 Networks,Information Technology,8.744185796,Mid-cap
+FB,"Facebook, Inc.",Information Technology,523.423036576,Mega-cap
+FAST,Fastenal Co,Industrials,15.311373377,Large-cap
+FRT,Federal Realty Investment Trust,Real Estate,8.077368506,Mid-cap
+FDX,FedEx Corporation,Industrials,67.280478816,Large-cap
+FIS,Fidelity National Information Services,Information Technology,32.30845968,Large-cap
+FITB,Fifth Third Bancorp,Financials,22.4376537,Large-cap
+FE,FirstEnergy Corp,Utilities,13.706075072,Large-cap
+FISV,Fiserv Inc,Information Technology,26.918949723,Large-cap
+FLIR,FLIR Systems,Information Technology,6.706992926,Mid-cap
+FLS,Flowserve Corporation,Industrials,5.427884956,Mid-cap
+FLR,Fluor Corp.,Industrials,7.978485059,Mid-cap
+FMC,FMC Corporation,Materials,11.273961835,Large-cap
+FL,Foot Locker Inc,Consumer Discretionary,5.819080328,Mid-cap
+F,Ford Motor,Consumer Discretionary,42.414328338,Large-cap
+FTV,Fortive Corp,Industrials,24.916503061,Large-cap
+FBHS,Fortune Brands Home & Security,Industrials,9.624169008,Mid-cap
+BEN,Franklin Resources,Financials,21.759187973,Large-cap
+FCX,Freeport-McMoRan Inc.,Materials,25.85396933,Large-cap
+GPS,Gap Inc.,Consumer Discretionary,12.684517721,Large-cap
+GRMN,Garmin Ltd.,Consumer Discretionary,11.840331607,Large-cap
+IT,Gartner Inc,Information Technology,10.828314389,Large-cap
+GD,General Dynamics,Industrials,64.180390701,Large-cap
+GE,General Electric,Industrials,132.24929625,Large-cap
+GGP,General Growth Properties Inc.,Real Estate,21.018887283,Large-cap
+GIS,General Mills,Consumer Staples,31.098243069,Large-cap
+GM,General Motors,Consumer Discretionary,61.536606173,Large-cap
+GPC,Genuine Parts,Consumer Discretionary,14.554321748,Large-cap
+GILD,Gilead Sciences,Health Care,108.106822109,Large-cap
+GPN,Global Payments Inc.,Information Technology,16.920023264,Large-cap
+GS,Goldman Sachs Group,Financials,96.978500251,Large-cap
+GT,Goodyear Tire & Rubber,Consumer Discretionary,8.244568238,Mid-cap
+GWW,Grainger (W.W.) Inc.,Industrials,14.639308205,Large-cap
+HAL,Halliburton Co.,Energy,43.35655747,Large-cap
+HBI,Hanesbrands Inc,Consumer Discretionary,8.006268615,Mid-cap
+HOG,Harley-Davidson,Consumer Discretionary,8.15894989,Mid-cap
+HRS,Harris Corporation,Information Technology,18.1407266,Large-cap
+HIG,Hartford Financial Svc.Gp.,Financials,19.926305632,Large-cap
+HAS,Hasbro Inc.,Consumer Discretionary,12.732072001,Large-cap
+HCA,HCA Holdings,Health Care,34.4490528,Large-cap
+HCP,HCP Inc.,Real Estate,10.967755538,Large-cap
+HP,Helmerich & Payne,Energy,7.345243806,Mid-cap
+HSIC,Henry Schein,Health Care,11.452961984,Large-cap
+HES,Hess Corporation,Energy,14.016129999,Large-cap
+HPE,Hewlett Packard Enterprise,Information Technology,24.80085964,Large-cap
+HLT,Hilton Worldwide Holdings Inc,Consumer Discretionary,26.242415796,Large-cap
+HOLX,Hologic,Health Care,11.18149375,Large-cap
+HD,Home Depot,Consumer Discretionary,223.378633329,Mega-cap
+HON,Honeywell Int'l Inc.,Industrials,114.422168609,Large-cap
+HRL,Hormel Foods Corp.,Consumer Staples,17.338613096,Large-cap
+HST,Host Hotels & Resorts,Real Estate,14.394715334,Large-cap
+HPQ,HP Inc.,Information Technology,34.895294088,Large-cap
+HUM,Humana Inc.,Health Care,36.973617235,Large-cap
+HBAN,Huntington Bancshares,Financials,16.766497291,Large-cap
+HII,Huntington Ingalls Industries,Industrials,10.628247899,Large-cap
+IDXX,IDEXX Laboratories,Health Care,15.42288502,Large-cap
+INFO,IHS Markit Ltd.,Industrials,17.969275816,Large-cap
+ITW,Illinois Tool Works,Industrials,55.994378108,Large-cap
+ILMN,Illumina Inc,Health Care,32.2952,Large-cap
+INCY,Incyte,Health Care,18.220961259,Large-cap
+IR,Ingersoll-Rand PLC,Industrials,22.785450609,Large-cap
+INTC,Intel Corp.,Information Technology,211.536,Mega-cap
+ICE,Intercontinental Exchange,Financials,41.373051167,Large-cap
+IBM,International Business Machines,Information Technology,142.433003505,Large-cap
+IP,International Paper,Materials,24.465996443,Large-cap
+IPG,Interpublic Group,Consumer Discretionary,8.277363031,Mid-cap
+IFF,Intl Flavors & Fragrances,Materials,11.270040447,Large-cap
+INTU,Intuit Inc.,Information Technology,41.233771565,Large-cap
+ISRG,Intuitive Surgical Inc.,Health Care,44.866621303,Large-cap
+IVZ,Invesco Ltd.,Financials,13.620847614,Large-cap
+IQV,IQVIA Holdings Inc.,Health Care,20.426488713,Large-cap
+IRM,Iron Mountain Incorporated,Real Estate,9.410249279,Mid-cap
+JBHT,J. B. Hunt Transport Services,Industrials,12.94536635,Large-cap
+JEC,Jacobs Engineering Group,Industrials,9.326484316,Mid-cap
+SJM,JM Smucker,Consumer Staples,13.612394896,Large-cap
+JNJ,Johnson & Johnson,Health Care,353.062464971,Mega-cap
+JCI,Johnson Controls International,Industrials,34.8222248,Large-cap
+JPM,JPMorgan Chase & Co.,Financials,386.613611,Mega-cap
+JNPR,Juniper Networks,Information Technology,9.26735,Mid-cap
+KSU,Kansas City Southern,Industrials,11.037040988,Large-cap
+K,Kellogg Co.,Consumer Staples,22.182794875,Large-cap
+KEY,KeyCorp,Financials,22.58974492,Large-cap
+KMB,Kimberly-Clark,Consumer Staples,39.449596,Large-cap
+KIM,Kimco Realty,Real Estate,6.180487499,Mid-cap
+KMI,Kinder Morgan,Energy,38.612712234,Large-cap
+KLAC,KLA-Tencor Corp.,Information Technology,16.078622033,Large-cap
+KSS,Kohl's Corp.,Consumer Discretionary,10.570861198,Large-cap
+KHC,Kraft Heinz Co,Consumer Staples,89.618309338,Large-cap
+KR,Kroger Co.,Consumer Staples,25.471355847,Large-cap
+LB,L Brands Inc.,Consumer Discretionary,13.862042842,Large-cap
+LLL,L-3 Communications Holdings,Industrials,16.229343134,Large-cap
+LH,Laboratory Corp. of America Holding,Health Care,17.271388,Large-cap
+LRCX,Lam Research,Information Technology,27.967534829,Large-cap
+LEG,Leggett & Platt,Consumer Discretionary,6.03460048,Mid-cap
+LEN,Lennar Corp.,Consumer Discretionary,14.615967194,Large-cap
+LUK,Leucadia National Corp.,Financials,8.910389431,Mid-cap
+LLY,Lilly (Eli) & Co.,Health Care,84.475986228,Large-cap
+LNC,Lincoln National,Financials,17.123031,Large-cap
+LKQ,LKQ Corporation,Consumer Discretionary,12.469931896,Large-cap
+LMT,Lockheed Martin Corp.,Industrials,98.10212,Large-cap
+L,Loews Corp.,Financials,16.111166935,Large-cap
+LOW,Lowe's Cos.,Consumer Discretionary,82.909678852,Large-cap
+LYB,LyondellBasell,Materials,43.55665,Large-cap
+MTB,M&T Bank Corp.,Financials,27.840827434,Large-cap
+MAC,Macerich,Real Estate,8.473119166,Mid-cap
+M,Macy's Inc.,Consumer Discretionary,7.541063495,Mid-cap
+MRO,Marathon Oil Corp.,Energy,13.875005314,Large-cap
+MPC,Marathon Petroleum,Energy,31.63374,Large-cap
+MAR,Marriott Int'l.,Consumer Discretionary,50.910130358,Large-cap
+MMC,Marsh & McLennan,Financials,41.81944,Large-cap
+MLM,Martin Marietta Materials,Materials,13.756812736,Large-cap
+MAS,Masco Corp.,Industrials,13.428792315,Large-cap
+MA,Mastercard Inc.,Information Technology,187.102014193,Large-cap
+MAT,Mattel Inc.,Consumer Discretionary,5.84340235,Mid-cap
+MKC,McCormick & Co.,Consumer Staples,13.459353253,Large-cap
+MCD,McDonald's Corp.,Consumer Discretionary,132.101623787,Large-cap
+MCK,McKesson Corp.,Health Care,31.534840262,Large-cap
+MDT,Medtronic plc,Health Care,110.1070623,Large-cap
+MRK,Merck & Co.,Health Care,152.24153034,Large-cap
+MET,MetLife Inc.,Financials,48.679364276,Large-cap
+MTD,Mettler Toledo,Health Care,16.420774443,Large-cap
+MGM,MGM Resorts International,Consumer Discretionary,19.633674337,Large-cap
+KORS,Michael Kors Holdings,Consumer Discretionary,10.053919023,Large-cap
+MCHP,Microchip Technology,Information Technology,19.393095636,Large-cap
+MU,Micron Technology,Information Technology,48.576791974,Large-cap
+MSFT,Microsoft Corp.,Information Technology,689.978437468,Mega-cap
+MAA,Mid-America Apartments,Real Estate,9.99262899,Mid-cap
+MHK,Mohawk Industries,Consumer Discretionary,19.897356456,Large-cap
+TAP,Molson Coors Brewing Company,Consumer Staples,12.396862128,Large-cap
+MDLZ,Mondelez International,Consumer Staples,65.827817742,Large-cap
+MON,Monsanto Co.,Materials,53.076824328,Large-cap
+MNST,Monster Beverage,Consumer Staples,36.403831015,Large-cap
+MCO,Moody's Corp,Financials,30.189978,Large-cap
+MS,Morgan Stanley,Financials,97.5354,Large-cap
+MSI,Motorola Solutions Inc.,Information Technology,16.626039679,Large-cap
+MYL,Mylan N.V.,Health Care,21.698849265,Large-cap
+NDAQ,"Nasdaq, Inc.",Financials,12.844304115,Large-cap
+NOV,National Oilwell Varco Inc.,Energy,12.940096785,Large-cap
+NAVI,Navient,Financials,3.69269133,Mid-cap
+NTAP,NetApp,Information Technology,15.375210915,Large-cap
+NFLX,Netflix Inc.,Information Technology,114.805404842,Large-cap
+NWL,Newell Brands,Consumer Discretionary,14.438346,Large-cap
+NFX,Newfield Exploration Co,Energy,5.69512308,Mid-cap
+NEM,Newmont Mining Corporation,Materials,19.749449484,Large-cap
+NWSA,News Corp. Class A,Consumer Discretionary,9.356906461,Mid-cap
+NWS,News Corp. Class B,Consumer Discretionary,9.496735699,Mid-cap
+NEE,NextEra Energy,Utilities,69.66117777,Large-cap
+NLSN,Nielsen Holdings,Industrials,13.37767008,Large-cap
+NKE,Nike,Consumer Discretionary,106.776113744,Large-cap
+NI,NiSource Inc.,Utilities,7.776566371,Mid-cap
+NBL,Noble Energy Inc,Energy,13.177325251,Large-cap
+JWN,Nordstrom,Consumer Discretionary,8.212509855,Mid-cap
+NSC,Norfolk Southern Corp.,Industrials,40.543547441,Large-cap
+NTRS,Northern Trust Corp.,Financials,22.908130223,Large-cap
+NOC,Northrop Grumman Corp.,Industrials,58.782413951,Large-cap
+NCLH,Norwegian Cruise Line,Consumer Discretionary,13.191507318,Large-cap
+NRG,NRG Energy,Utilities,8.030036023,Mid-cap
+NUE,Nucor Corp.,Materials,20.003317128,Large-cap
+NVDA,Nvidia Corporation,Information Technology,138.6528,Large-cap
+ORLY,O'Reilly Automotive,Consumer Discretionary,21.43378186,Large-cap
+OXY,Occidental Petroleum,Energy,53.467692395,Large-cap
+OMC,Omnicom Group,Consumer Discretionary,17.377551986,Large-cap
+OKE,ONEOK,Energy,21.988472489,Large-cap
+ORCL,Oracle Corp.,Information Technology,202.30234974,Mega-cap
+PCAR,PACCAR Inc.,Industrials,24.152102921,Large-cap
+PKG,Packaging Corporation of America,Materials,11.051273948,Large-cap
+PH,Parker-Hannifin,Industrials,24.421668509,Large-cap
+PDCO,Patterson Companies,Health Care,3.2097924,Mid-cap
+PAYX,Paychex Inc.,Information Technology,23.25366681,Large-cap
+PYPL,PayPal,Information Technology,90.708,Large-cap
+PNR,Pentair Ltd.,Industrials,12.466660892,Large-cap
+PBCT,People's United Financial,Financials,6.527616,Mid-cap
+PEP,PepsiCo Inc.,Consumer Staples,161.41327102,Large-cap
+PKI,PerkinElmer,Health Care,8.351767268,Mid-cap
+PRGO,Perrigo,Health Care,12.326379902,Large-cap
+PFE,Pfizer Inc.,Health Care,208.505541949,Mega-cap
+PCG,PG&E Corp.,Utilities,20.309412381,Large-cap
+PM,Philip Morris International,Consumer Staples,153.580671803,Large-cap
+PSX,Phillips 66,Energy,47.99622,Large-cap
+PNW,Pinnacle West Capital,Utilities,8.397609889,Mid-cap
+PXD,Pioneer Natural Resources,Energy,29.983119693,Large-cap
+PNC,PNC Financial Services,Financials,73.315,Large-cap
+RL,Polo Ralph Lauren Corp.,Consumer Discretionary,8.753430477,Mid-cap
+PPG,PPG Industries,Materials,29.043337549,Large-cap
+PPL,PPL Corp.,Utilities,20.839814845,Large-cap
+PX,Praxair Inc.,Materials,42.948664203,Large-cap
+PCLN,Priceline.com Inc,Consumer Discretionary,91.817448863,Large-cap
+PFG,Principal Financial Group,Financials,18.457199721,Large-cap
+PG,Procter & Gamble,Consumer Staples,206.318943299,Mega-cap
+PGR,Progressive Corp.,Financials,31.06278,Large-cap
+PLD,Prologis,Real Estate,31.953288,Large-cap
+PRU,Prudential Financial,Financials,47.13608,Large-cap
+PEG,Public Serv. Enterprise Inc.,Utilities,24.138050331,Large-cap
+PSA,Public Storage,Real Estate,32.258539942,Large-cap
+PHM,Pulte Homes Inc.,Consumer Discretionary,8.792572352,Mid-cap
+PVH,PVH Corp.,Consumer Discretionary,11.478625926,Large-cap
+QRVO,Qorvo,Information Technology,9.877885146,Mid-cap
+QCOM,QUALCOMM Inc.,Information Technology,96.282828902,Large-cap
+PWR,Quanta Services Inc.,Industrials,5.330131216,Mid-cap
+DGX,Quest Diagnostics,Health Care,13.5783,Large-cap
+RRC,Range Resources Corp.,Energy,3.25558797,Mid-cap
+RJF,Raymond James Financial Inc.,Financials,13.2162717,Large-cap
+RTN,Raytheon Co.,Industrials,59.06625584,Large-cap
+O,Realty Income Corporation,Real Estate,13.784942453,Large-cap
+RHT,Red Hat Inc.,Information Technology,22.799923883,Large-cap
+REG,Regency Centers Corporation,Real Estate,9.858367494,Mid-cap
+REGN,Regeneron,Health Care,35.950369241,Large-cap
+RF,Regions Financial Corp.,Financials,21.50064,Large-cap
+RSG,Republic Services Inc,Industrials,21.590903863,Large-cap
+RMD,ResMed,Health Care,13.233622689,Large-cap
+RHI,Robert Half International,Industrials,7.047165475,Mid-cap
+ROK,Rockwell Automation Inc.,Industrials,24.123216432,Large-cap
+COL,Rockwell Collins,Industrials,22.197870556,Large-cap
+ROP,Roper Technologies,Industrials,27.247789759,Large-cap
+ROST,Ross Stores,Consumer Discretionary,29.803566306,Large-cap
+RCL,Royal Caribbean Cruises Ltd,Consumer Discretionary,27.418147452,Large-cap
+SPGI,"S&P Global, Inc.",Financials,46.58595,Large-cap
+CRM,Salesforce.com,Information Technology,79.489115,Large-cap
+SBAC,SBA Communications,Real Estate,19.572031314,Large-cap
+SCG,SCANA Corp,Utilities,5.229448882,Mid-cap
+SLB,Schlumberger Ltd.,Energy,96.529311126,Large-cap
+SNI,Scripps Networks Interactive Inc.,Consumer Discretionary,11.328642413,Large-cap
+STX,Seagate Technology,Information Technology,14.11319772,Large-cap
+SEE,Sealed Air,Materials,8.001938397,Mid-cap
+SRE,Sempra Energy,Utilities,26.163862235,Large-cap
+SHW,Sherwin-Williams,Materials,37.730994828,Large-cap
+SIG,Signet Jewelers,Consumer Discretionary,3.034275549,Mid-cap
+SPG,Simon Property Group Inc,Real Estate,48.139839531,Large-cap
+SWKS,Skyworks Solutions,Information Technology,18.493080922,Large-cap
+SLG,SL Green Realty,Real Estate,8.617714345,Mid-cap
+SNA,Snap-On Inc.,Consumer Discretionary,9.499107736,Mid-cap
+SO,Southern Co.,Utilities,43.497224128,Large-cap
+LUV,Southwest Airlines,Industrials,34.351211637,Large-cap
+SWK,Stanley Black & Decker,Consumer Discretionary,24.4963996,Large-cap
+SBUX,Starbucks Corp.,Consumer Discretionary,76.548976,Large-cap
+STT,State Street Corp.,Financials,38.0591133,Large-cap
+SRCL,Stericycle Inc,Industrials,6.218560288,Mid-cap
+SYK,Stryker Corp.,Health Care,57.509096756,Large-cap
+STI,SunTrust Banks,Financials,32.49894831,Large-cap
+SYMC,Symantec Corp.,Information Technology,16.520497264,Large-cap
+SYF,Synchrony Financial,Financials,28.89375,Large-cap
+SNPS,Synopsys Inc.,Information Technology,12.767067883,Large-cap
+SYY,Sysco Corp.,Consumer Staples,30.445320778,Large-cap
+TROW,T. Rowe Price Group,Financials,25.810865035,Large-cap
+TPR,"Tapestry, Inc.",Consumer Discretionary,14.247199374,Large-cap
+TGT,Target Corp.,Consumer Discretionary,39.816696539,Large-cap
+TEL,TE Connectivity Ltd.,Information Technology,34.983666316,Large-cap
+FTI,TechnipFMC,Energy,14.163064455,Large-cap
+TXN,Texas Instruments,Information Technology,100.26252647,Large-cap
+TXT,Textron Inc.,Industrials,15.254672353,Large-cap
+BK,The Bank of New York Mellon Corp.,Financials,56.083904906,Large-cap
+CLX,The Clorox Company,Consumer Staples,16.540418002,Large-cap
+COO,The Cooper Companies,Health Care,11.29795814,Large-cap
+HSY,The Hershey Company,Consumer Staples,20.86727202,Large-cap
+MOS,The Mosaic Company,Materials,9.726962131,Mid-cap
+TRV,The Travelers Companies Inc.,Financials,38.903131815,Large-cap
+DIS,The Walt Disney Company,Consumer Discretionary,157.817273295,Large-cap
+TMO,Thermo Fisher Scientific,Health Care,83.226586345,Large-cap
+TIF,Tiffany & Co.,Consumer Discretionary,12.81051532,Large-cap
+TWX,Time Warner Inc.,Consumer Discretionary,74.1858,Large-cap
+TJX,TJX Companies Inc.,Consumer Discretionary,48.181450881,Large-cap
+TMK,Torchmark Corp.,Financials,9.614412169,Mid-cap
+TSS,Total System Services,Information Technology,15.694951118,Large-cap
+TSCO,Tractor Supply Company,Consumer Discretionary,8.459271203,Mid-cap
+TDG,TransDigm Group,Industrials,15.241203731,Large-cap
+TRIP,TripAdvisor,Consumer Discretionary,5.700998508,Mid-cap
+FOXA,Twenty-First Century Fox Class A,Consumer Discretionary,44.027094922,Large-cap
+FOX,Twenty-First Century Fox Class B,Consumer Discretionary,66.135313503,Large-cap
+TSN,Tyson Foods,Consumer Staples,26.9575268,Large-cap
+USB,U.S. Bancorp,Financials,90.940115897,Large-cap
+UDR,UDR Inc,Real Estate,9.050154422,Mid-cap
+ULTA,Ulta Salon Cosmetics & Fragrance Inc,Consumer Discretionary,13.300000127,Large-cap
+UAA,Under Armour Class A,Consumer Discretionary,5.856913571,Mid-cap
+UA,Under Armour Class C,Consumer Discretionary,5.36662895,Mid-cap
+UNP,Union Pacific,Industrials,101.513290382,Large-cap
+UAL,United Continental Holdings,Industrials,19.363059152,Large-cap
+UNH,United Health Group Inc.,Health Care,218.834811333,Mega-cap
+UPS,United Parcel Service,Industrials,96.436356833,Large-cap
+URI,"United Rentals, Inc.",Industrials,14.654954091,Large-cap
+UTX,United Technologies,Industrials,105.387272474,Large-cap
+UHS,"Universal Health Services, Inc.",Health Care,11.116075286,Large-cap
+UNM,Unum Group,Financials,11.256432318,Large-cap
+VFC,V.F. Corp.,Consumer Discretionary,31.797645904,Large-cap
+VLO,Valero Energy,Energy,39.312309113,Large-cap
+VAR,Varian Medical Systems,Health Care,10.69268172,Large-cap
+VTR,Ventas Inc,Real Estate,18.865999082,Large-cap
+VRSN,Verisign Inc.,Information Technology,10.754983829,Large-cap
+VRSK,Verisk Analytics,Industrials,15.594677147,Large-cap
+VZ,Verizon Communications,Telecommunication Services,208.092277044,Mega-cap
+VRTX,Vertex Pharmaceuticals Inc,Health Care,39.369386348,Large-cap
+VIAB,Viacom Inc.,Consumer Discretionary,10.601008017,Large-cap
+V,Visa Inc.,Information Technology,270.038723213,Mega-cap
+VNO,Vornado Realty Trust,Real Estate,12.778779911,Large-cap
+VMC,Vulcan Materials,Materials,16.964162228,Large-cap
+WMT,Wal-Mart Stores,Consumer Staples,304.680931618,Mega-cap
+WBA,Walgreens Boots Alliance,Consumer Staples,70.862541911,Large-cap
+WM,Waste Management Inc.,Industrials,35.488486675,Large-cap
+WAT,Waters Corporation,Health Care,16.064078572,Large-cap
+WEC,Wec Energy Group Inc,Utilities,18.890296993,Large-cap
+WFC,Wells Fargo,Financials,281.463620775,Mega-cap
+HCN,Welltower Inc.,Real Estate,20.943679019,Large-cap
+WDC,Western Digital,Information Technology,24.760297793,Large-cap
+WU,Western Union Co,Information Technology,8.951609207,Mid-cap
+WRK,WestRock Company,Materials,16.433340688,Large-cap
+WY,Weyerhaeuser Corp.,Real Estate,26.07029796,Large-cap
+WHR,Whirlpool Corp.,Consumer Discretionary,12.17792,Large-cap
+WMB,Williams Cos.,Energy,24.80239647,Large-cap
+WLTW,Willis Towers Watson,Financials,20.780269334,Large-cap
+WYN,Wyndham Worldwide,Consumer Discretionary,11.993835688,Large-cap
+WYNN,Wynn Resorts Ltd,Consumer Discretionary,18.225400525,Large-cap
+XEL,Xcel Energy Inc,Utilities,21.559611927,Large-cap
+XRX,Xerox Corp.,Information Technology,7.93883334,Mid-cap
+XLNX,Xilinx Inc,Information Technology,17.064975551,Large-cap
+XL,XL Capital,Financials,10.75342359,Large-cap
+XYL,Xylem Inc.,Industrials,12.915021,Large-cap
+YUM,Yum! Brands Inc,Consumer Discretionary,27.003303098,Large-cap
+ZBH,Zimmer Biomet Holdings,Health Care,24.454698119,Large-cap
+ZION,Zions Bancorp,Financials,10.67067864,Large-cap
+ZTS,Zoetis,Health Care,35.991109776,Large-cap

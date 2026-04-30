@@ -1,0 +1,40 @@
+pe_ratio
+pb_ratio
+ps_ratio
+ev_ebitda_proxy
+dividend_yield
+eps
+log_market_cap
+log_ebitda
+price_range_pct
+pe_ratio_sector_pct
+pb_ratio_sector_pct
+ps_ratio_sector_pct
+ev_ebitda_proxy_sector_pct
+market_cap_sector_pct
+dividend_yield_sector_pct
+pe_ratio_zscore
+pb_ratio_zscore
+ps_ratio_zscore
+ev_ebitda_proxy_zscore
+cheap_count
+cheap_and_midcap
+cash_cow_flag
+near_52w_low
+near_52w_high
+profitable
+low_pb_small_size
+sector_Consumer Discretionary
+sector_Consumer Staples
+sector_Energy
+sector_Financials
+sector_Health Care
+sector_Industrials
+sector_Information Technology
+sector_Materials
+sector_Real Estate
+sector_Telecommunication Services
+sector_Utilities
+tier_Large-cap
+tier_Mega-cap
+tier_Mid-cap
