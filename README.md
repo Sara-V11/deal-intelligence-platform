@@ -146,18 +146,3 @@ rigor IB and PE teams require.
 Python · pandas · numpy · scikit-learn · XGBoost · SHAP · Groq LLM API (free) ·
 Streamlit · Plotly · SQLite
 
----
-
-## Interview talking points
-
-**IB framing**: "I built a walk-forward M&A screener that would have caught 100% of
-actual deals in its top-20 predictions, and added an LLM layer that drafts the
-1-page memo banks currently spend 3-5 days on."
-
-**PE framing**: "My screener scores the S&P 500 on acquisition attractiveness with
-a 2.3× lift over random. For every 100 companies a traditional sourcing team calls,
-mine identifies the same opportunities in 43 calls."
-
-**DS framing**: "Walk-forward validation with precision-at-K, SHAP explainability,
-and an LLM-powered downstream task using Groq's free Llama 3.3 70B — the full
-modern ML stack applied to a real finance use case."
