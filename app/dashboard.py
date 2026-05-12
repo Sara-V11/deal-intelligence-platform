@@ -131,7 +131,6 @@ with tab_list:
     if len(filtered) == 0:
         st.warning("No companies match the current filters. Try loosening the criteria.")
     else:
-        # NEW: Top-10 deal score chart
         top10 = filtered.head(10).sort_values("deal_score")
         fig_top = px.bar(
             top10, x="deal_score", y="ticker", orientation="h",
@@ -148,7 +147,6 @@ with tab_list:
         fig_top.update_layout(height=420)
         st.plotly_chart(fig_top, use_container_width=True)
 
-        # NEW: Distribution chart — deal score distribution colored by sector
         c1, c2 = st.columns(2)
         with c1:
             fig_dist = px.histogram(
@@ -172,7 +170,6 @@ with tab_list:
             fig_scatter.update_layout(height=380, showlegend=False)
             st.plotly_chart(fig_scatter, use_container_width=True)
 
-    # Original table
     st.markdown("#### Ranked target list")
     cols_map = {
         "ticker": "Ticker", "name": "Company", "sector": "Sector",
@@ -200,6 +197,7 @@ with tab_list:
         "text/csv",
     )
 
+
 # ═══════════════════════════ TAB 2: Sector analysis ═══════════════════════════
 with tab_sector:
     st.subheader("Sector-level M&A attractiveness")
@@ -224,7 +222,6 @@ with tab_sector:
     sec["total_mcap_bn"] = sec["total_mcap_bn"].round(0)
     sec = sec.sort_values("avg_score", ascending=False)
 
-    # Row 1 — Deal score bar + Valuation scatter
     c1, c2 = st.columns(2)
     with c1:
         fig = px.bar(
@@ -249,11 +246,9 @@ with tab_sector:
         fig.update_layout(height=420, showlegend=False)
         st.plotly_chart(fig, use_container_width=True)
 
-    # Row 2 — NEW: Sector heatmap of valuation multiples
     st.markdown("#### Sector valuation heatmap")
     heat_data = sec[["sector", "median_pe", "median_pb", "median_ps", "median_yield"]].set_index("sector")
     heat_data.columns = ["P/E", "P/B", "P/S", "Yield %"]
-    # Normalize each column 0-1 so colors are comparable
     heat_norm = (heat_data - heat_data.min()) / (heat_data.max() - heat_data.min())
     fig_heat = go.Figure(data=go.Heatmap(
         z=heat_norm.values,
@@ -269,7 +264,6 @@ with tab_sector:
                             title="Lower = cheaper / more attractive (red); higher = expensive (green)")
     st.plotly_chart(fig_heat, use_container_width=True)
 
-    # Row 3 — NEW: Sector treemap by market cap
     st.markdown("#### Sector market cap treemap (size = $B, color = avg deal score)")
     fig_tree = px.treemap(
         sec, path=["sector"], values="total_mcap_bn",
@@ -315,35 +309,18 @@ with tab_dive:
             fig_gauge = go.Figure(go.Indicator(
                 mode="gauge+number",
                 value=row["deal_score"],
-                domain={"x": [0, 1], "y": [0, 1]},
-                title={
-                    "text": "Deal attractiveness score",
-                    "font": {"size": 16},
-                },
-                number={
-                    "font": {"size": 44},
-                    "suffix": "<span style='font-size:18px;color:gray'>/100</span>",
-                    "valueformat": ".0f",
-                },
+                number={"font": {"size": 40}, "valueformat": ".0f"},
+                title={"text": "Deal attractiveness score", "font": {"size": 14}},
                 gauge={
-                    "axis": {
-                        "range": [0, 100],
-                        "tickwidth": 1,
-                        "tickcolor": "rgba(255,255,255,0.3)",
-                    },
-                    "bar": {"color": "#185FA5", "thickness": 0.7},
+                    "axis":  {"range": [0, 100]},
+                    "bar":   {"color": "#185FA5"},
                     "bgcolor": "rgba(0,0,0,0)",
-                    "borderwidth": 0,
                     "steps": [
-                        {"range": [0,  40],  "color": "rgba(237, 242, 247, 0.15)"},
-                        {"range": [40, 70],  "color": "rgba(181, 212, 244, 0.3)"},
-                        {"range": [70, 100], "color": "rgba(55, 138, 221, 0.5)"},
+                        {"range": [0,  40],  "color": "rgba(237, 242, 247, 0.2)"},
+                        {"range": [40, 70],  "color": "rgba(181, 212, 244, 0.4)"},
+                        {"range": [70, 100], "color": "rgba(55, 138, 221, 0.6)"},
                     ],
-                    "threshold": {
-                        "line": {"color": "white", "width": 3},
-                        "thickness": 0.8,
-                        "value": 70,
-                    },
+                    "threshold": {"line": {"color": "white", "width": 3}, "value": 70},
                 },
             ))
             fig_gauge.update_layout(
@@ -351,16 +328,15 @@ with tab_dive:
                 margin=dict(t=60, b=20, l=40, r=40),
                 paper_bgcolor="rgba(0,0,0,0)",
                 font={"color": "white"},
-            )            
+            )
+            st.plotly_chart(fig_gauge, use_container_width=True)
 
         with c2:
-            # NEW: Radar chart — company vs sector median across 5 dimensions
             sector_peers = df[df["sector"] == row["sector"]]
             metrics = ["pe_ratio", "pb_ratio", "ps_ratio", "ev_ebitda_proxy", "dividend_yield"]
             metric_labels = ["P/E (lower better)", "P/B (lower better)", "P/S (lower better)",
                               "EV/EBITDA (lower better)", "Div yield (higher better)"]
 
-            # Normalize so all metrics show on same 0-100 scale (cheap = high score)
             sec_min = sector_peers[metrics].min()
             sec_max = sector_peers[metrics].max()
 
@@ -372,7 +348,6 @@ with tab_dive:
                     company_scores.append(50)
                     sector_scores.append(50)
                     continue
-                # For valuation multiples, lower is better — invert
                 if m == "dividend_yield":
                     company_scores.append((row[m] - cmin) / (cmax - cmin) * 100)
                     sector_scores.append((sector_peers[m].median() - cmin) / (cmax - cmin) * 100)
@@ -400,7 +375,7 @@ with tab_dive:
             )
             st.plotly_chart(fig_radar, use_container_width=True)
 
-        # Row 2 — NEW: Peer comparison box plots
+        # Row 2 — Peer comparison box plots
         st.markdown(f"#### How {sel} compares to {row['sector']} peers")
         sector_peers = df[df["sector"] == row["sector"]]
 
@@ -435,7 +410,7 @@ with tab_dive:
                                   yaxis_title="P/B", height=350, showlegend=True)
             st.plotly_chart(fig_pb, use_container_width=True)
 
-        # Row 3 — NEW: Peer scatter showing where this company sits
+        # Row 3 — Peer scatter showing where this company sits
         st.markdown(f"#### {sel}'s position in the {row['sector']} valuation map")
         peer_chart = sector_peers.copy()
         peer_chart["is_target"] = peer_chart["ticker"] == sel
@@ -450,6 +425,7 @@ with tab_dive:
         )
         fig_peer.update_layout(height=400, showlegend=False)
         st.plotly_chart(fig_peer, use_container_width=True)
+
 
 # ═══════════════════════════ TAB 4: AI Deal Memo ══════════════════════════════
 with tab_memo:
@@ -491,10 +467,10 @@ with tab_memo:
             try:
                 from src.memo_generator import generate_memo, compute_peer_stats
                 peer_stats = compute_peer_stats(df, target["sector"])
-                if "70B" in model_choice:    model_key = "llama-70b"
-                elif "8B" in model_choice:   model_key = "llama-8b"
-                elif "Mixtral" in model_choice: model_key = "mixtral"
-                else:                        model_key = "gemma"
+                if "70B" in model_choice:        model_key = "llama-70b"
+                elif "8B" in model_choice:       model_key = "llama-8b"
+                elif "Mixtral" in model_choice:  model_key = "mixtral"
+                else:                            model_key = "gemma"
                 memo, tokens = generate_memo(target.to_dict(), peer_stats, model=model_key)
                 st.session_state["current_memo"] = memo
                 st.session_state["current_memo_ticker"] = memo_ticker
@@ -502,12 +478,10 @@ with tab_memo:
             except Exception as e:
                 st.error(f"Memo generation failed: {e}")
 
-    # ── Display the memo (only if one exists for the selected ticker) ─────
     if ("current_memo" in st.session_state
             and st.session_state.get("current_memo_ticker") == memo_ticker):
         st.divider()
 
-        # KPI strip
         st.markdown(f"### {target['name']} ({memo_ticker})")
         st.caption(f"{target['sector']} · {target['market_cap_tier']} · "
                    f"Generated {datetime.now().strftime('%H:%M')}")
@@ -532,7 +506,6 @@ with tab_memo:
 
         st.divider()
 
-        # Pre-built financial metrics table (data, not LLM)
         st.markdown("### :bar_chart: Key Financial Metrics")
         from src.memo_generator import compute_peer_stats
         peer_stats = compute_peer_stats(df, target["sector"])
@@ -557,18 +530,17 @@ with tab_memo:
                 if diff < -10: return "BELOW peers"
                 return "in line"
 
-        # Defensive lookups — works even if memo_generator wasn't updated yet
         med_ev = peer_stats.get("median_ev_ebitda")
         if med_ev is None:
             med_ev = sector_peers["ev_ebitda_proxy"].median()
 
         metrics_df = pd.DataFrame([
             {"Metric": "Market Cap",
-            "Company": f"${target['market_cap_bn']:.1f}B",
-            "Sector Median": f"${peer_stats['median_mcap_bn']:.1f}B",
-            "Gap": gap_str(target["market_cap_bn"], peer_stats["median_mcap_bn"]),
-            "Verdict": "DIGESTIBLE" if target["market_cap_bn"] < peer_stats["median_mcap_bn"]
-                        else " LARGE TARGET"},
+             "Company": f"${target['market_cap_bn']:.1f}B",
+             "Sector Median": f"${peer_stats['median_mcap_bn']:.1f}B",
+             "Gap": gap_str(target["market_cap_bn"], peer_stats["median_mcap_bn"]),
+             "Verdict": "DIGESTIBLE" if target["market_cap_bn"] < peer_stats["median_mcap_bn"]
+                         else "LARGE TARGET"},
             {"Metric": "EBITDA",
              "Company": f"${target['ebitda_bn']:.1f}B",
              "Sector Median": "—", "Gap": "—", "Verdict": "—"},
@@ -602,7 +574,6 @@ with tab_memo:
         st.caption("Computed from your data — not generated by the LLM.")
         st.divider()
 
-        # LLM memo split into expandable sections
         memo_text = st.session_state["current_memo"]
         sections = {}
         current_section = None
@@ -647,6 +618,7 @@ with tab_memo:
                 "text/markdown",
                 use_container_width=True,
             )
+
 
 # ═══════════════════════════ TAB 5: Backtest ═════════════════════════════════
 with tab_backtest:
