@@ -315,20 +315,43 @@ with tab_dive:
             fig_gauge = go.Figure(go.Indicator(
                 mode="gauge+number",
                 value=row["deal_score"],
-                title={"text": "Deal attractiveness score"},
+                domain={"x": [0, 1], "y": [0, 1]},
+                title={
+                    "text": "Deal attractiveness score",
+                    "font": {"size": 16},
+                },
+                number={
+                    "font": {"size": 44},
+                    "suffix": "<span style='font-size:18px;color:gray'>/100</span>",
+                    "valueformat": ".0f",
+                },
                 gauge={
-                    "axis":  {"range": [0, 100]},
-                    "bar":   {"color": "#185FA5"},
+                    "axis": {
+                        "range": [0, 100],
+                        "tickwidth": 1,
+                        "tickcolor": "rgba(255,255,255,0.3)",
+                    },
+                    "bar": {"color": "#185FA5", "thickness": 0.7},
+                    "bgcolor": "rgba(0,0,0,0)",
+                    "borderwidth": 0,
                     "steps": [
-                        {"range": [0,  40],  "color": "#EDF2F7"},
-                        {"range": [40, 70],  "color": "#B5D4F4"},
-                        {"range": [70, 100], "color": "#378ADD"},
+                        {"range": [0,  40],  "color": "rgba(237, 242, 247, 0.15)"},
+                        {"range": [40, 70],  "color": "rgba(181, 212, 244, 0.3)"},
+                        {"range": [70, 100], "color": "rgba(55, 138, 221, 0.5)"},
                     ],
-                    "threshold": {"line": {"color": "#0A2342", "width": 3}, "value": 70},
+                    "threshold": {
+                        "line": {"color": "white", "width": 3},
+                        "thickness": 0.8,
+                        "value": 70,
+                    },
                 },
             ))
-            fig_gauge.update_layout(height=320)
-            st.plotly_chart(fig_gauge, use_container_width=True)
+            fig_gauge.update_layout(
+                height=320,
+                margin=dict(t=60, b=20, l=40, r=40),
+                paper_bgcolor="rgba(0,0,0,0)",
+                font={"color": "white"},
+            )            
 
         with c2:
             # NEW: Radar chart — company vs sector median across 5 dimensions
